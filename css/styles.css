@@ -529,6 +529,11 @@ img {
     fill: var(--color-white);
 }
 
+.footer-bottom {
+    margin-bottom: 16px;
+    margin-left: 80px;
+}
+
 .footer-subscribe {
     color: var(--color-paragraph);
     font-size: 16px;
@@ -536,16 +541,14 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
-    margin-left: 80px;
 }
 
 .footer-form {
     display: flex;
     gap: 24px;
-    margin-left: 80px;
 }
 
-.footer-label {
+/* .footer-label {
     position: absolute;
     left: 16px;
     top: 50%;
@@ -553,7 +556,7 @@ img {
     color: var(--color-paragraph);
     font-size: 12px;
     letter-spacing: 0.04em;
-}
+} */
 
 .footer-input {
     width: 264px;
