@@ -224,8 +224,8 @@ img {
 
 .advantages-list {
     display: flex;
+    flex-wrap: wrap;
     /* gap: 24px; */
-    flex-direction: column;
     gap: 72px;
 }
 
@@ -943,4 +943,25 @@ img {
     letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 428px) {}
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 426px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 798px;
+    }
+
+    .advantages {
+    }
+
+    .advantages-item {
+        width: calc((100% - 24px) / 2);
+    }
+
+    .advantages-list {
+        gap: 72px;
+    }
+}
