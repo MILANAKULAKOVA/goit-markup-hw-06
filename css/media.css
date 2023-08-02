@@ -1,6 +1,7 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 426px) {
     .container {
-        max-width: 428px;
+        max-width: 426px;
+        width: 100%;
     }
 
     .team > .container {
@@ -15,6 +16,7 @@
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+        width: 100%;
     }
 
     .team > .container {
@@ -23,6 +25,7 @@
 
     .companies > .container {
         max-width: 582px;
+        width: 100%;
     }
 
     .advantages {
@@ -59,9 +62,23 @@
     .container-team {
         margin-bottom: 0;
     }
+
+    .companies-title-list {
+        gap: 24px;
+        row-gap: 72px;
+    }
        
     .companies-list {
-        width: calc((100% - 24px) / 3);
+        width: calc((100% - 2*24px) / 3);
+    }
+
+    .companies-list-icon {
+        max-width: 168px;
+        padding: 16px 32px;
+    }
+
+    .companies-icon  {
+        width: 104px;
     }
 
 }

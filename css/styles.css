@@ -374,8 +374,10 @@ img {
 }
 
 .companies-title-list {
+    display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 16px;
+    row-gap: 72px;
 }
 
 .companies-list {
@@ -384,8 +386,9 @@ img {
 }
 
 .companies-list-icon {
-    width: 100%;
-    height: 100%;
+    max-width: 190px;
+    max-height: 88px;
+    padding: 16px 40px;
     border: 1px solid var(--color-icon);
     border-radius: 4px;
     display: flex;
