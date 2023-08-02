@@ -371,12 +371,14 @@ img {
 }
 
 .companies-title-list {
-    display: flex;
+    /* display: flex; */
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .companies-list {
-    width: calc((100% - 5*24px) / 6);
+    /* width: calc((100% - 5*24px) / 6); */
+    width: 168px;
     height: 88px;
 }
 
@@ -1056,6 +1058,10 @@ img {
     .companies {
         padding-top: 120px;
         padding-bottom: 120px;
+    }
+
+    .companies-list {
+        width: calc((100% - 5*24px) / 6);
     }
     
 }
