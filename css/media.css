@@ -1,0 +1,163 @@
+@media screen and (min-width: 428px) {
+    .container {
+        max-width: 428px;
+    }
+
+    .wedoing {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .advantages {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .advantages-item {
+        width: calc((100% - 24px) / 3);
+    }
+
+    .advantages-list {
+        gap: 72px;
+    }
+
+    .advantages-subtitle {
+        text-align: left;
+    }
+
+    .wedoing {
+        display: none;
+    }
+
+    .team-title-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .team-advantages {
+        width: calc((100% - 24px) / 2);
+        margin-bottom: 64px;
+    }
+
+    .container-team {
+        margin-bottom: 0;
+    }
+       
+    .companies-list {
+        width: calc((100% - 24px) / 3);
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+    }
+
+    .advantages {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .advantages-list {
+        gap: 24px;
+    }
+
+    .advantages-item {
+        width: 100%;
+        width: calc((100% - 24px*3) / 4);
+        border-radius: 4px;
+    }
+
+    .advantages-block {
+        width: 264px;
+        height: 112px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        background: var(--color-white);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8px;
+    }
+
+    .advantages-item-icon {
+        height: 64px;
+    }
+
+    .advantages-subtitle {
+        text-align: left;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    }
+
+    .advantages-item-text {
+        font-weight: 400;
+    }
+
+    .wedoing {
+        display: flex;
+        padding-bottom: 120px;
+    }
+
+    .wedoing-title {
+        color: var(--main-color);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        margin-bottom: 72px;
+    }
+
+    .wedoing-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .wedoing-img {
+        width: calc((100% - 48px) / 3);
+    }
+
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .team-title-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .team-advantages {
+        width: calc((100% - 3*24px) / 4);
+        margin-bottom: 0;
+    }
+
+    .container-team {
+        margin-bottom: 0;
+    }
+
+    .companies {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .companies-title-list {
+        display: flex;
+        gap: 24px;
+    }
+
+    .companies-list {
+        width: calc((100% - 5*24px) / 6);
+    }
+
+}
