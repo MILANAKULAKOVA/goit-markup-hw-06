@@ -3,6 +3,10 @@
         max-width: 428px;
     }
 
+    .team > .container {
+        max-width: 264px;
+    }
+
     .wedoing {
         display: none;
     }
@@ -11,6 +15,14 @@
 @media screen and (min-width: 768px) {
     .container {
         max-width: 768px;
+    }
+
+    .team > .container {
+        max-width: 582px;
+    }
+
+    .companies > .container {
+        max-width: 582px;
     }
 
     .advantages {
@@ -55,7 +67,7 @@
 }
 
 @media screen and (min-width: 1158px) {
-    .container {
+    .container, .team > .container, .companies > .container {
         max-width: 1158px;
     }
 
