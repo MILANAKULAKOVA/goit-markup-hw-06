@@ -358,8 +358,8 @@ img {
 /*--------------CUSTOMERS-----------------*/
 
 .companies {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .companies-title {
@@ -374,12 +374,12 @@ img {
 }
 
 .companies-title-list {
-    display: flex;
+    flex-wrap: wrap;
     gap: 24px;
 }
 
 .companies-list {
-    width: calc((100% - 5*24px) / 6);
+    width: calc((100% - 16px) / 2);
     height: 88px;
 }
 
