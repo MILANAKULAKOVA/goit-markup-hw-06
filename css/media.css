@@ -1,6 +1,6 @@
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 428px) {
     .container {
-        max-width: 426px;
+        max-width: 428px;
         width: 100%;
     }
 
@@ -26,6 +26,12 @@
     .companies > .container {
         max-width: 584px;
         width: 100%;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/tablet.jpg);
+        max-width: 768px;
     }
 
     .advantages {
@@ -126,9 +132,15 @@
 }
 
 @media screen and (min-width: 1158px) {
-    .container, .team > .container, .companies > .container, .footer > .container {
+    .container, .team > .container, .advantages > .container, .companies > .container, .footer > .container {
         max-width: 1158px;
         width: 100%;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+            url(../images/hero-bg.jpg);
+        max-width: 1440px;
     }
 
     .advantages {
