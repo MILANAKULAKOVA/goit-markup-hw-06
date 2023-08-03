@@ -87,7 +87,28 @@
         margin: 0 auto;
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 72px 24px;
+    }
+
+    .footer-cotainer-logo {
+        display: block;
+    }
+
+    .footer-media {
+        display: block;
+        margin-left: 24px;
+    }
+
+    .footer-media-title {
+        text-align: left;
+    }
+
+    .footer-bottom {
+        display: block;
+        align-items: baseline;
+    }
+
+    .footer-subscribe {
+        text-align: left;
     }
 
     .footer-form {
