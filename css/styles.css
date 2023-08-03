@@ -181,6 +181,15 @@ img {
     background-size: cover;
 }
 
+@media (min-divice-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)),
+                url(../images/mobile-2x.jpg);
+        }
+    }
+
 .hero-title {
     color: #FFF;
     font-size: 36px;
