@@ -429,13 +429,7 @@ img {
     padding: 96px 0;
 }
 
-.footer-cotainer {
-    /* display: flex; */
-    /* align-items: baseline; */
-}
-
 .footer-cotainer-logo {
-    /* margin-right: 120px; */
     display: grid;
     place-items: center;
     margin-bottom: 72px;

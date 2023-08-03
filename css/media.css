@@ -126,8 +126,9 @@
 }
 
 @media screen and (min-width: 1158px) {
-    .container, .team > .container, .companies > .container {
+    .container, .team > .container, .companies > .container, .footer > .container {
         max-width: 1158px;
+        width: 100%;
     }
 
     .advantages {
@@ -236,12 +237,15 @@
     }
 
     .footer-cotainer {
-        display: flex;
-        align-items: baseline;
+        flex-wrap: nowrap;
     }
 
     .footer-cotainer-logo {
         margin-right: 120px;
+    }
+
+    .footer-media {
+        margin-right: 80px;
     }
 
 }
