@@ -4,8 +4,8 @@
         width: 100%;
     }
 
-    .team > .container {
-        max-width: 264px;
+    .advantages > .container, .companies > .container, .footer > .container {
+        max-width: 396px;
     }
 
     .wedoing {
@@ -19,12 +19,12 @@
         width: 100%;
     }
 
-    .team > .container {
-        max-width: 582px;
+    .team > .container, .footer > .container {
+        max-width: 584px;
     }
 
     .companies > .container {
-        max-width: 582px;
+        max-width: 584px;
         width: 100%;
     }
 
@@ -79,6 +79,27 @@
 
     .companies-icon  {
         width: 104px;
+    }
+
+    .footer-cotainer {
+        display: flex;
+        align-items: baseline;
+        margin: 0 auto;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 72px 24px;
+    }
+
+    .footer-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .footer-input {
+        width: 264px;
+        margin-bottom: 0;
     }
 
 }
@@ -187,6 +208,19 @@
 
     .companies-list {
         width: calc((100% - 5*24px) / 6);
+    }
+
+    .footer {
+        padding: 100px 0;
+    }
+
+    .footer-cotainer {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .footer-cotainer-logo {
+        margin-right: 120px;
     }
 
 }

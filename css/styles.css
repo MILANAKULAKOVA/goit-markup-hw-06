@@ -266,6 +266,10 @@ img {
     padding-bottom: 96px;
 }
 
+.team>.container {
+    max-width: 264px;
+}
+
 .team-title {
     color: var(--main-color);
     text-align: center;
@@ -422,16 +426,19 @@ img {
 
 .footer {
     background: var(--main-color);
-    padding: 100px 0;
+    padding: 96px 0;
 }
 
 .footer-cotainer {
-    display: flex;
-    align-items: baseline;
+    /* display: flex; */
+    /* align-items: baseline; */
 }
 
 .footer-cotainer-logo {
-    margin-right: 120px;
+    /* margin-right: 120px; */
+    display: grid;
+    place-items: center;
+    margin-bottom: 72px;
 }
 
 .footer-logo {
@@ -455,7 +462,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 18px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .footer-text {
@@ -467,8 +474,15 @@ img {
     max-width: 264px;
 }
 
+.footer-media {
+    display: grid;
+    place-items: center;
+    margin-bottom: 72px;
+}
+
 .footer-media-title {
     color: var(--color-paragraph);
+    text-align: center;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -508,12 +522,15 @@ img {
 }
 
 .footer-bottom {
+    display: grid;
+    place-items: center;
     margin-bottom: 16px;
-    margin-left: 80px;
+    /* margin-left: 80px; */
 }
 
 .footer-subscribe {
     color: var(--color-paragraph);
+    text-align: center;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -522,12 +539,14 @@ img {
 }
 
 .footer-form {
-    display: flex;
-    gap: 24px;
+    display: grid;
+    place-items: center;
+    /* display: flex; */
+    /* gap: 24px; */
 }
 
 .footer-input {
-    width: 264px;
+    width: 398px;
     height: 40px;
     background-color: transparent;
     font-size: 12px;
@@ -538,6 +557,7 @@ img {
     border-radius: 4px;
     color: var(--color-paragraph);
     border: 1px solid var(--color-paragraph);
+    margin-bottom: 16px;
 }
 
 .footer-input::placeholder {
@@ -546,6 +566,7 @@ img {
 
 .footer-form-btn {
     min-width: 165px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
