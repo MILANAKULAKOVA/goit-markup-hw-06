@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +15,6 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
-
 <body>
     <header class="header">
         <div class="container header-container">
@@ -41,65 +39,67 @@
                     </li>
                 </ul>
             </address>
-            <button type="button" class="menu-open-btn">
+            <button type="button" class="menu-open-btn" data-menu-open>
                 <svg class="header-icon" width="32" height="22">
                     <use href="./images/icons.svg#icon-menu-hamburger"></use>
                 </svg>
             </button>
         </div>
-        <div class="mob-menu">
-            <button type="button" class="menu-close-btn">
-                <svg class="modal-icon-close" width="8" height="8">
-                    <use href="./images/icons.svg#icon-close-black"></use>
-                </svg>
-            </button>
-            <ul class="mob-menu-list list">
-                <li class="mob-menu-item"><a class="mob-menu-link link current" href="./index.html">Studio</a>
-                </li>
-                <li class="mob-menu-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="mob-menu-item"><a class="mob-menu-link link" href="">Contacts</a></li>
-            </ul>
-            <address class="mob-address">
+        <div class="mob-menu is-hidden" data-menu>
+            <div>
+                <button type="button" class="menu-close-btn" data-menu-close>
+                    <svg class="modal-icon-close" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close-black"></use>
+                    </svg>
+                </button>
+                <ul class="mob-menu-list list">
+                    <li class="mob-menu-item"><a class="mob-menu-link link current" href="./index.html">Studio</a>
+                    </li>
+                    <li class="mob-menu-item"><a class="mob-menu-link link" href="./portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="mob-menu-item"><a class="mob-menu-link link" href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="mob-address">
                 <ul class="mob-address-item list">
-                    <li class="mob-address-link">
-                        <a class="mob-address-info link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    <li class="mob-address-link-tel">
+                        <a class="mob-address-tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
                     </li>
                     <li class="mob-address-link">
-                        <a class="mob-address-info link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                        <a class="mob-address-email link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                 </ul>
-            </address>
-            <ul class="mob-media-list list">
-                <li class="mob-media-icon">
-                    <a class="mob-media" href="" aria-label="instagram" target="_blank" rel="no-referrer">
-                        <svg class="mob-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="mob-media-icon">
-                    <a class="mob-media" href="" aria-label="twitter" target="_blank" rel="no-referrer">
-                        <svg class="mob-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="mob-media-icon">
-                    <a class="mob-media" href="" aria-label="facebook" target="_blank" rel="no-referrer">
-                        <svg class="mob-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg>
-                    </a>
-                </li>
-                <li class="mob-media-icon">
-                    <a class="mob-media" href="" aria-label="linkedin" target="_blank" rel="no-referrer">
-                        <svg class="mob-icon" width="24" height="24">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
+                <ul class="mob-media-list list">
+                    <li class="mob-media-icon">
+                        <a class="mob-media" href="" aria-label="instagram" target="_blank" rel="no-referrer">
+                            <svg class="mob-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-media-icon">
+                        <a class="mob-media" href="" aria-label="twitter" target="_blank" rel="no-referrer">
+                            <svg class="mob-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-media-icon">
+                        <a class="mob-media" href="" aria-label="facebook" target="_blank" rel="no-referrer">
+                            <svg class="mob-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="mob-media-icon">
+                        <a class="mob-media" href="" aria-label="linkedin" target="_blank" rel="no-referrer">
+                            <svg class="mob-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </header>
     <main>
@@ -556,6 +556,7 @@
         </div>
     </div>
     <script src="./js/modal.js"></script> -->
+    <script src="./js/menu.js"></script>
 </body>
 
 </html>

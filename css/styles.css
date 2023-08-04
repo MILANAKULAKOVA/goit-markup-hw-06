@@ -67,6 +67,10 @@ img {
     list-style-type: none;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 /*--------------HEADER-----------------*/
 
 .header {
@@ -115,43 +119,116 @@ img {
     margin: 0 auto;
 }
 
-.menu-open-btn {}
+.mob-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--color-paragraph);
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    padding: 24px 24px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-.header-icon {}
+.menu-close-btn {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 40px;
+}
 
-.mob-menu {}
+.mob-menu-item:not(:last-child) {
+    margin-bottom: 40px;
+}
 
-.menu-close-btn {}
+.mob-menu-link {
+    color: var(--main-color);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
 
-.modal-icon-close {}
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+    color: var(--color-blau);
+}
 
-.mob-menu-list {}
+.mob-address {
+    display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+}
 
-.list {}
+.mob-address-item {
+    margin-bottom: 48px;
+}
 
-.mob-menu-item {}
+.mob-address-link-tel {
+    margin-bottom: 40px;
+}
 
-.mob-menu-link {}
+.mob-address-tel {
+    color: var(--color-text);
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+}
 
-.link {}
+.mob-address-email {
+    color: var(--color-text);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
 
-.current {}
+.mob-address-tel:hover,
+.mob-address-tel:focus {
+    color: var(--color-blau);
+}
 
-.mob-address {}
+.mob-address-email:hover,
+.mob-address-email:focus {
+    color: var(--color-blau);
+}
 
-.mob-address-item {}
+.mob-media-list {
+    display: flex;
+    justify-content: center;
+    gap: 56px;
+}
 
-.mob-address-link {}
+.mob-media-icon {
+  width: 40px;
+  height: 40px;
+}
 
-.mob-address-info {}
+.mob-media {
+    width: 100%;
+        height: 100%;
+        background-color: var(--accent-color);
+        border-radius: 50%;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--color-white);
+}
 
-.mob-media-list {}
+.mob-media:hover,
+.mob-media:focus {
+    background-color: var(--color-blau);
+}
 
-.mob-media-icon {}
-
-.mob-media {}
-
-.mob-icon {}
+.mob-icon {
+    fill: currentColor;
+    height: 24px;
+}
 
 /*--------------HERO-----------------*/
 
