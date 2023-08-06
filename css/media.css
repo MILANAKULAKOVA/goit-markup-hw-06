@@ -1,10 +1,10 @@
 @media screen and (min-width: 428px) {
     .container {
-        max-width: 428px;
+        max-width: 426px;
         width: 100%;
     }
 
-    .advantages > .container, .companies > .container, .footer > .container {
+    .advantages > .container, .footer > .container {
         max-width: 396px;
     }
 
@@ -14,17 +14,17 @@
 }
 
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 768px;
+    .container, .advantages > .container {
+        max-width: 766px;
         width: 100%;
     }
 
-    .team > .container, .footer > .container, .advantages > .container {
-        max-width: 584px;
+    .team > .container, .footer > .container {
+        max-width: 582px;
     }
 
     .companies > .container {
-        max-width: 584px;
+        max-width: 582px;
         width: 100%;
     }
 
@@ -35,12 +35,11 @@
         .header-menu {
             display: flex;
             gap: 40px;
-            margin-right: 121px;
+            /* margin-right: 121px; */
         }
     
         .header-address-item {
             display: block;
-            padding: 16px 0;
         }
     
         .header-menu-link {
@@ -70,6 +69,7 @@
             letter-spacing: 0.04em;
             display: block;
             transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            margin-bottom: 12px;
         }
     
         .current {
@@ -124,11 +124,11 @@
     }
 
     .advantages-item {
-        width: calc((100% - 24px) / 3);
+        width: calc((100% - 24px) / 2);
     }
 
     .advantages-list {
-        gap: 72px;
+        gap: 72px 24px;
     }
 
     .advantages-subtitle {
@@ -146,7 +146,6 @@
 
     .team-advantages {
         width: calc((100% - 24px) / 2);
-        margin-bottom: 64px;
     }
 
     .container-team {
@@ -164,7 +163,7 @@
 
     .companies-list-icon {
         max-width: 168px;
-        padding: 16px 32px;
+        /* padding: 16px 32px; */
     }
 
     .companies-icon  {
@@ -181,11 +180,13 @@
 
     .footer-cotainer-logo {
         display: block;
+        margin-bottom: 0;
     }
 
     .footer-media {
         display: block;
         margin-left: 24px;
+        margin-bottom: 0;
     }
 
     .footer-media-title {
@@ -214,7 +215,7 @@
     }
 
     .modal {
-        width: 408px;
+        max-width: 408px;
     }
 
 }
