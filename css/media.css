@@ -29,6 +29,10 @@
         letter-spacing: 0.02em;
     }
 
+    .mob-media-list {
+        gap: 56px;
+    }
+
     .wedoing {
         display: none;
     }
@@ -64,7 +68,6 @@
         .header-menu {
             display: flex;
             gap: 40px;
-            /* margin-right: 121px; */
         }
     
         .header-address-item {
@@ -170,11 +173,15 @@
 
     .team-title-list {
         display: flex;
-        gap: 24px;
+        gap: 64px 24px;
     }
 
     .team-advantages {
         width: calc((100% - 24px) / 2);
+    }
+
+    .team-advantages:not(:last-child) {
+        margin-bottom: 0;
     }
 
     .companies-title-list {
@@ -268,7 +275,7 @@
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        padding: 24px 0;
+        padding: 0;
         display: block;
     }
 

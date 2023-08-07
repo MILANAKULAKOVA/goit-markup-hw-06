@@ -238,7 +238,7 @@ img {
 .mob-media-list {
     display: flex;
     justify-content: left;
-    gap: 56px;
+    gap: 24px;
 }
 
 .mob-media-icon {
@@ -408,6 +408,7 @@ img {
 .team-advantages:not(:last-child) {
     margin-bottom: 72px;
 }
+
 .team-images {
     margin: 0 auto;
 }
