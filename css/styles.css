@@ -369,7 +369,7 @@ img {
     padding-bottom: 96px;
 }
 
-.team>.container {
+.team >.container {
     max-width: 294px;
 }
 
@@ -390,6 +390,7 @@ img {
 
 .team-advantages {
     max-width: 264px;
+    margin-bottom: 72px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -397,6 +398,9 @@ img {
         0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+.team-advantages:not(:last-child) {
+    margin-bottom: 72px;
+}
 .team-images {
     margin: 0 auto;
 }
@@ -404,7 +408,6 @@ img {
 .container-team {
     padding: 32px 0;
     margin: 0 auto;
-    margin-bottom: 0;
 }
 
 .team-name {
@@ -621,8 +624,6 @@ img {
 .footer-bottom {
     display: grid;
     place-items: center;
-    /* margin-bottom: 16px; */
-    /* margin-left: 80px; */
 }
 
 .footer-subscribe {
@@ -643,7 +644,7 @@ img {
 }
 
 .footer-input {
-    width: 100%;
+    width: auto;
     height: 40px;
     background-color: transparent;
     font-size: 12px;
@@ -698,7 +699,7 @@ img {
 }
 
 .modal {
-    max-width: 392px;
+    width: 290px;
     min-height: 584px;
     border-radius: 4px;
     background: #FCFCFC;
