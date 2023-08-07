@@ -19,6 +19,16 @@
         max-width: 396px;
     }
 
+    .mob-address-tel {
+        color: var(--color-blau);
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+    }
+
     .wedoing {
         display: none;
     }

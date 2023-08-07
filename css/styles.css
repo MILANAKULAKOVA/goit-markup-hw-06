@@ -153,7 +153,6 @@ img {
     align-items: center;
     justify-content: center;
     margin-left: auto;
-    /* margin-bottom: 40px; */
     border: none;
     background: transparent;
     width: 24px;
@@ -174,13 +173,22 @@ img {
     margin-bottom: 40px;
 }
 
+.mob-menu-home {
+    color: var(--color-blau);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
 .mob-menu-link {
     color: var(--main-color);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .mob-menu-link:hover,
@@ -203,24 +211,23 @@ img {
 }
 
 .mob-address-tel {
-    color: var(--color-text);
-        font-size: 36px;
-        font-weight: 700;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-}
-
-.mob-address-email {
-    color: var(--color-text);
+    color: var(--color-blau);
+    font-family: Roboto;
         font-size: 20px;
+        font-style: normal;
         font-weight: 500;
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
 
-.mob-address-tel:hover,
-.mob-address-tel:focus {
-    color: var(--color-blau);
+.mob-address-email {
+    color: var(--color-text);
+    font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
 }
 
 .mob-address-email:hover,
@@ -230,6 +237,7 @@ img {
 
 .mob-media-list {
     display: flex;
+    justify-content: left;
     gap: 56px;
 }
 
@@ -390,7 +398,6 @@ img {
 
 .team-advantages {
     max-width: 264px;
-    margin-bottom: 72px;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
